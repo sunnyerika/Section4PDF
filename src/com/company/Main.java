@@ -4,18 +4,28 @@ public class Main {
 
 
     public static void main(String[] args) {
-	// write your code here
+        //Problem 1.1
+        System.out.println("Problem 1.1");
         Converter conF2C = new Converter();
-        conF2C.fahrenheitToCelsius(32.0);
-
+        conF2C.fToC(32.0);
         System.out.println();
 
+        //Problem 1.2
+        System.out.println("Problem 1.2");
         Hypo hypo = new Hypo();
-        hypo.hypothenuse(2, 3);
-
+        hypo.hypotenuse(2, 3);
         System.out.println();
 
+        //Problem 1.3
+        System.out.println("Problem 1.3");
         Dice dice = new Dice();
         dice.roll();
+        System.out.println();
+
+        //Problem 2
+        System.out.println("Problem 2");
+        NameProcessor nameProcessor = new NameProcessor();
+        nameProcessor.processName();
+        System.out.println();
     }
 }

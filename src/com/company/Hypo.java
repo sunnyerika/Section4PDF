@@ -8,10 +8,10 @@ import java.text.DecimalFormat;
  */
 public class Hypo {
 
-    public double hypothenuse (double sideA, double sideB){
+    public double hypotenuse (double a, double b){
         DecimalFormat f = new DecimalFormat("##.00");
-        double  hypo = Math.sqrt((sideA*sideA + sideB*sideB));
-        System.out.print("Hypothenuse:" + f.format(hypo));
+        double  hypo = Math.sqrt((a*a + b*b));
+        System.out.println("Hypothenuse: " + f.format(hypo));
         return hypo;
     }
 }

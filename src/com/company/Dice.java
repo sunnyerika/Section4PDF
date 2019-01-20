@@ -16,7 +16,7 @@ public class Dice {
         }
 
          int roll = new Random().nextInt(dice.size());
-        System.out.print("Roll:" + roll);
+        System.out.println("Roll: " + roll);
         return roll;
 
     }
