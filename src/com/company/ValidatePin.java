@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Sunny on 1/27/2019.
  */
 public class ValidatePin {
-
+//commit
     int userPin = 1234;
 
     public ValidatePin (int pin){

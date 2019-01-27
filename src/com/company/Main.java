@@ -4,7 +4,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        /*
+    /*
         //Problem 1.1
         System.out.println("Problem 1.1");
         Converter conF2C = new Converter();
@@ -44,7 +44,8 @@ public class Main {
         //Problem 6.3 ASCII Art
         System.out.println("Problem 3 Section 6: Programmatic ASCII Art");
         AsciiArt asciiArt = new AsciiArt();
-        asciiArt.createRectangle(5,4);
+        asciiArt.createRectangle(9,8);
+        asciiArt.createTrangle(9);
         System.out.println();
     }
 }
