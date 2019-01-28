@@ -44,7 +44,8 @@ public class Main {
         //Problem 6.3 ASCII Art - erika
         System.out.println("Problem 3 Section 6: Programmatic ASCII Art");
         AsciiArt asciiArt = new AsciiArt();
-        asciiArt.createRectangle(5,4);
+        asciiArt.createRectangle(9,8);
+        asciiArt.createTrangle(9);
         System.out.println();
 
         //Problem 5.1 - Robin

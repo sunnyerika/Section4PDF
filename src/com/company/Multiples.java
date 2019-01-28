@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Sunny on 1/27/2019.
  */
 public class Multiples {
-
+//commit
     int number;
 
     public String enterNumber() {
